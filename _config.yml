@@ -69,7 +69,8 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/DevinXian/devinxian.github.io.git
+  repo: root@luofeng.me:luofeng.me.git
+#  repo: https://github.com/DevinXian/devinxian.github.io.git
   branch: master
 
 
