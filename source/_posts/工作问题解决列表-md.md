@@ -9,3 +9,4 @@ tags:
 4. 每次提交代码，中间件是重中之重！
 5. promise-request 获取图片，pipe 到文件流没有问题；通过获取数据，比如await结果，或者.then(() => fs.writeFile...)均有问题，
 底层不详。如果上传到ali-oss, 用 request.on('response', (response) => ...response是可读流)
+6. 页面存在多个分页时候，如果重用分页变量，一定不能同时获取列表数据，存在覆盖情况
