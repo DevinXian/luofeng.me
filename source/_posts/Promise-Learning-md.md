@@ -133,4 +133,4 @@ describe('array-promise-chain', function() {
   })
 })
 ```
-8. Promise.prototype.reduce 可以控制 Promise 串行流程，当然可以用多个 then 来写，相比较麻烦一点了。
+8. Promise.prototype.reduce 是控制 Promise 串行流程的良好工具，当然也可以用 Promise chain 来写，相比较代码多一点。
