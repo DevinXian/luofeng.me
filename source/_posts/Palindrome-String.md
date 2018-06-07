@@ -49,6 +49,7 @@ function maxPalindrome(str) {
   const len = str.length
   let maxLen = 1
   let start = 0 // 最长回文子串起点
+  // 此处也可用二位数组，但须注意 new Array(n) 得到的未赋值数组forEach遍历会失败，要使用for
   const dp = {} 
   for (let i = 0; i < len; i++) {
     const item = {}
@@ -78,3 +79,4 @@ function maxPalindrome(str) {
 console.log(maxPalindrome('abbaabccbaabc'))
 // baabccbaab
 ```
+3. Manacher 算法：时间和空间复杂度O(n)
