@@ -38,7 +38,7 @@ for(let v of dem(2)) {
 }
 // 3
 // 4
-// 并不会再打印 4
+// 并不会再打印 undefined // y 
 ```
 
 ### Error Handling
